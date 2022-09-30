@@ -1,0 +1,15 @@
+-- Crear proyecto
+ng new nombreproyecto
+
+-- Ejecutar 
+> ng serve
+
+-- Crear modulo
+> ng g c nombrecarepta/hijocarpeta
+
+-- crear modulo sin el test
+> ng g c nombrecarepta/hijocarpeta --skipTests
+
+
+
+
