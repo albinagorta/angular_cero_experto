@@ -1,8 +1,13 @@
+-- EJECUTAR SCRIPT PARA PRODUCCION
+> ng build --configuration production
+
+
 -- Crear proyecto
 ng new nombreproyecto
 
--- Ejecutar 
+-- Ejecutar dev
 > ng serve
+
 
 -- Crear modulo
 > ng g c nombrecarepta/hijocarpeta
