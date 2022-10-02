@@ -9,11 +9,20 @@ ng new nombreproyecto
 > ng serve
 
 
--- Crear modulo
+-- Crear componente completo
 > ng g c nombrecarepta/hijocarpeta
 
--- crear modulo sin el test
+-- Crear modulo solo
+> ng g m nombrecarpeta-o-modulo
+
+-- Crear servicio sin test
+> ng g s nombreservicio --skipTests
+
+-- crear componente completo sin el test
 > ng g c nombrecarepta/hijocarpeta --skipTests
+
+-- crear componente completo sin el test y sin style
+> ng g c nombrecarepta/hijocarpeta --skipTests -is
 
 
 
