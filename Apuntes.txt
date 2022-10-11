@@ -16,14 +16,22 @@ ng new nombreproyecto
 > ng g m nombrecarpeta-o-modulo
 
 -- Crear servicio sin test
-> ng g s nombreservicio --skipTests
+> ng g s nombreservicio --skip-tests
 
 -- crear componente completo sin el test
-> ng g c nombrecarepta/hijocarpeta --skipTests
+> ng g c nombrecarepta/hijocarpeta --skip-tests
 
 -- crear componente completo sin el test y sin style
-> ng g c nombrecarepta/hijocarpeta --skipTests -is
+> ng g c nombrecarepta/hijocarpeta --skip-tests -s
 
+-- Ayuda
+> ng g c --help
+
+-- crear ruta  sin carpeta
+> ng g m appRouter --flat
+
+-- Crear pipes sin test
+> ng g pipe nombre --skip-tests
 
 
 
