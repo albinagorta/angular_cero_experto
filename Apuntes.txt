@@ -1,3 +1,6 @@
+-- Crear servicio ficticio y levantar: 
+> json-server --watch db.json
+
 -- EJECUTAR SCRIPT PARA PRODUCCION
 > ng build --configuration production
 
